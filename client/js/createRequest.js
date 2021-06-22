@@ -18,4 +18,15 @@ function createRequest() {
         document.getElementById("txtStatus").innerHTML = this.responseText;
       }
     };
+
+    var $pName = document.getElementById("pName");
+    var $pLanguage = document.getElementById("pLanguage");
+    var $category = document.getElementById("category");
+    var $imagesLink = document.getElementById("imagesLink");
+    var $videoLink = document.getElementById("videoLink");
+    var $price = document.getElementById("price");
+    var $info = document.getElementById("info");
+    var $pPrivate = document.getElementById("pPrivate");
+
+    
 }
