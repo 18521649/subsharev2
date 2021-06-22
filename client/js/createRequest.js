@@ -19,14 +19,14 @@ function createRequest() {
       }
     };
 
-    var $pName = document.getElementById("pName");
-    var $pLanguage = document.getElementById("pLanguage");
-    var $category = document.getElementById("category");
-    var $imagesLink = document.getElementById("imagesLink");
-    var $videoLink = document.getElementById("videoLink");
-    var $price = document.getElementById("price");
-    var $info = document.getElementById("info");
-    var $pPrivate = document.getElementById("pPrivate");
+    var $pName = document.getElementById("pName").value;
+    var $pLanguage = document.getElementById("pLanguage").value;
+    var $category = document.getElementById("category").value;
+    var $imagesLink = document.getElementById("imagesLink").value;
+    var $videoLink = document.getElementById("videoLink").value;
+    var $price = document.getElementById("price").value;
+    var $info = document.getElementById("info").value;
+    var $pPrivate = document.getElementById("pPrivate").value;
 
     
 }
